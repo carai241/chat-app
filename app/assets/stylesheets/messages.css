@@ -35,13 +35,23 @@ background-color: #253141;
 }
 
 .rooms {
-  height: clac(100vh - 100px);
-  background-color: #2f3E51;
+  height: calc(100vh - 100px);
+  background-color: #2F3E51;
   padding: 0 20px;
+  overflow: scroll;
+}
+
+.room {
+  padding: 20px 0 40px;
+}
+
+.room-name a {
+  color: white;
+  text-decoration: none;
 }
 
 .chat {
-width: clac(100% - 300px);
+width: calc(100% - 300px);
 background-color: #ffffff;
 }
 
@@ -51,7 +61,7 @@ background-color: #ffffff;
 }
 
 .messages {
-  height: clac(100vh - 100px - 90px);
+  height: calc(100vh - 100px - 90px);
   background-color: #FAFAFA;
   padding: 46px 40px 0;
 }
